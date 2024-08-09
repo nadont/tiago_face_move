@@ -1,0 +1,8 @@
+prefix=/home/pal/tiago_face_move/install
+
+Name: tiago_face_move
+Description: Description of tiago_face_move
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs sensor_msgs cv_bridge pal_detection_msgs move_base_msgs actionlib tf

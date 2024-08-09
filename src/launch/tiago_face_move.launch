@@ -1,0 +1,12 @@
+<launch>
+    <!-- Node for the face detector -->
+    <node pkg="tiago_face_move" type="face_detector.py" name="face_detector" output="screen">
+        <!-- Remap the image topic to the one you want to subscribe to -->
+        <remap from="image" to="/xtion/rgb/image_raw"/>
+        <!-- Set parameters for the face detector -->
+        <param name="verbose_publishing" type="bool" value="true"/>
+    </node>
+
+    <!-- Add any additional nodes or parameters you need for your system here -->
+</launch>
+

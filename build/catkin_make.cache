@@ -1,0 +1,2 @@
+.
+-DCATKIN_DEVEL_PREFIX=/home/pal/tiago_face_move/devel -DCMAKE_INSTALL_PREFIX=/home/pal/tiago_face_move/install -G Unix Makefiles
